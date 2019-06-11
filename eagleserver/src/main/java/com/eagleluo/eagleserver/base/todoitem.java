@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class todoitem {
+public class TodoItem {
     private boolean checked;
     private String text;
     private boolean isDelete;

@@ -3,15 +3,15 @@ package com.eagleluo.eagleserver.model;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.eagleluo.eagleserver.base.todoitem;
+import com.eagleluo.eagleserver.base.TodoItem;
 
-public class todoitemservice {
+public class TodoItemService {
 
-    public List<todoitem> todolist = new ArrayList<>();
+    public List<TodoItem> todolist = new ArrayList<>();
         
-    public List<todoitem> gettodolist() {
+    public List<TodoItem> gettodolist() {
 
-        todoitem item = new todoitem();
+        TodoItem item = new TodoItem();
         item.setText( "今天工作需要完成" );
         todolist.add( item );
     
